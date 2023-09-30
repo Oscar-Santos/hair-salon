@@ -99,6 +99,28 @@ a{
     color: var(--black-color);
 }
 
+/* HOME PAGE */
+/* Default styles for home-page */
+#home-page {
+    text-align: center; /* Center align the content inside home-page */
+}
+
+/* Media query for screens smaller than 768px (typical mobile devices) */
+@media (max-width: 768px) {
+    #home-page {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 100vh; /* Set home-page height to 100% of the viewport height */
+    }
+    
+    .hero__img {
+        margin-bottom: 20px; /* Add some space between the image and content */
+    }
+}
+
+
 /* LOGO */
 
 .brandi {
@@ -245,13 +267,6 @@ a{
     z-index: 50; /* Set a higher z-index to ensure it appears above other elements */
 
 }
-/* @media (max-width: 600px) {
-    .nav__menu {
-      display: none;
-    }
-  } */
-
-
 
 .scroll-header{
     background-color: var(--white-color);
