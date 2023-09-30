@@ -98,6 +98,15 @@ a{
     line-height: var(--h2-font-size);
     color: var(--black-color);
 }
+
+/* LOGO */
+
+.brandi {
+    position: fixed;
+    top: 10px;
+    /* left: 15px; */
+    z-index: 100;   
+}
 /* BUTTON */
 .btn{
     width: 240px;
@@ -227,6 +236,18 @@ a{
 .nav__link.active-link{
     color: var(--first-color);
 }
+
+.nav__menu {
+    position: fixed;
+    top: 15;
+    right: 0;
+    padding: 35px 50px; /* Adjust the padding as needed */
+    z-index: 50; /* Set a higher z-index to ensure it appears above other elements */
+
+}
+
+
+
 .scroll-header{
     background-color: var(--white-color);
 }
