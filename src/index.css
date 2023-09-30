@@ -129,10 +129,11 @@ a{
 
     @media (max-width: 767px) {
         right: 40px; /* Adjust the right spacing for smaller screens */
-     /* Example background color for better visibility */
+    
         padding: 10px 15px; /* Adjust padding for better touch interactions */
         border-radius: 5px; /* Optional: Add rounded corners for a nicer look */
         box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.2); /* Optional: Add a box shadow for a subtle lift */
+        opacity: 0.5;
     }
 }
 
