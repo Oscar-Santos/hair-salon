@@ -245,6 +245,11 @@ a{
     z-index: 50; /* Set a higher z-index to ensure it appears above other elements */
 
 }
+@media (max-width: 600px) {
+    .nav__menu {
+      display: none;
+    }
+  }
 
 
 
