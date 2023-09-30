@@ -240,8 +240,8 @@ a{
 .nav__menu {
     position: fixed;
     top: 15;
-    right: 0;
-    padding: 35px 50px; /* Adjust the padding as needed */
+    right: 40px;
+    /* padding: 35px 50px;  */
     z-index: 50; /* Set a higher z-index to ensure it appears above other elements */
 
 }
