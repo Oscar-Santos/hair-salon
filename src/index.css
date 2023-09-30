@@ -128,7 +128,7 @@ a{
     z-index: 100; /* Set a higher z-index to ensure it appears above other elements */
 
     @media (max-width: 767px) {
-        right: 40px; /* Adjust the right spacing for smaller screens */
+        right: 5px; /* Adjust the right spacing for smaller screens */
     
         padding: 10px 15px; /* Adjust padding for better touch interactions */
         border-radius: 5px; /* Optional: Add rounded corners for a nicer look */
