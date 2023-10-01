@@ -1,67 +1,61 @@
-# Getting Started with Create React App
+![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
+# ANA RIOS HAIR SALON SITE
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Overview 🟣
+Brand Craft Pro Robot App is a small, yet complete full-stack application. For this app, I utilized various technologies such as React, React libraries, CSS, Node packages, and a Node.js server with the Express framework to create a web server.
 
-## Available Scripts
+The highlight of this application is an interactive chatbot that leverages the powerful "Text-DaVinci-oo3" model from OpenAI. Through API calls, the chatbot engages in conversations with users, simulating interactions with a real person. To ensure security, I have implemented the Dotenv module to load environment variables and conceal my API key, as OpenAI prioritizes data protection.
 
-In the project directory, you can run:
+You can ask this chatbot for name suggestions, logo designs, or even an "about us" story for any type of business. It provides prompt-based responses, generating creative and relevant suggestions based on the input. Additionally, I have incorporated AI voice to deliver an introductory and thank-you message to the user.
 
-### `npm start`
+Developing this application has been exciting but also challenging. I thoroughly enjoyed working on it and overcoming the various complexities that arose along the way.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+<img width="1224" alt="anahs" src="https://github.com/Oscar-Santos/hair-salon/assets/83252572/5fa718c7-05ee-4b77-88d3-9699d9f76474">
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+<img width="1223" alt="Screen Shot 2023-09-30 at 9 07 30 PM" src="https://github.com/Oscar-Santos/hair-salon/assets/83252572/6c8aaeee-9232-4636-8108-e19cf3808241">
 
-### `npm test`
+<img width="1245" alt="Screen Shot 2023-09-30 at 9 07 52 PM" src="https://github.com/Oscar-Santos/hair-salon/assets/83252572/2aa624e6-a00d-47e2-be73-c78ad20e55f7">
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<img width="1246" alt="Screen Shot 2023-09-30 at 9 08 16 PM" src="https://github.com/Oscar-Santos/hair-salon/assets/83252572/16755751-f5cb-4cc6-a99a-4c1625d1e390">
+  
+## Framework🟣
+<p>
+  <img src="https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB" />
+</p>
 
-### `npm run build`
+## Languages🟣
+<p>
+  <img src="https://img.shields.io/badge/JavaScript-ES2021-yellow?logo=javascript" />
+  </br>
+  <img src="https://img.shields.io/badge/CSS-3-blue?logo=css3" />
+  </br>
+  <img src="https://img.shields.io/badge/HTML-<VERSION>-<COLOR>?logo=html5" />
+  </br>
+</p>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Tools🟣
+<p>
+  <img src="https://img.shields.io/badge/OpenAI-Integrated-brightgreen?logo=openai" /> 
+  </br>
+  <img src="https://img.shields.io/badge/Node.js-14.17.3-green?logo=node.js" /> 
+  </br>
+  <img src="https://img.shields.io/badge/Git-F05032.svg?&style=flaste&logo=git&logoColor=white" />
+  </br>
+  <img src="https://img.shields.io/badge/GitHub-181717.svg?&style=flaste&logo=github&logoColor=white" />
+  </br>
+</p>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Vercel Deployment Link🟣
 
-### `npm run eject`
+[Vercel Link](https://brand-craft-pro-robot-app.vercel.app/)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## App Link🟣
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+[React App Link](https://brand-craft-pro-robot-app.vercel.app/)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
+![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
