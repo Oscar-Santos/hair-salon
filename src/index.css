@@ -143,12 +143,35 @@ a{
 }
 
 
-/* LOGO */
+/* FIXING LOGO AND NAV MENU */
+
+@media (min-width: 960px) {
+    .nav__menu {
+        position: fixed;
+        top: 35px; /* Adjust the top position as per your design */
+        right: 35px; /* Adjust the right position as per your design */
+        padding: 35px 50px;
+        z-index: 100;
+        background-color: transparent; /* Set background color for desktop */
+        box-shadow: none; /* Remove box shadow for desktop */
+    }
+
+    .brandi {
+        top: 10px;
+        left: 15px;
+        z-index: 100;
+        position: fixed;
+        background-color: transparent; /* Set background color for desktop */
+        box-shadow: none; /* Remove box shadow for desktop */
+    }
+}
+
+
 
 .brandi {
     top: 10px; 
     z-index: 100;
-    position: relative;
+    /* position: relative; */
   }
   
   @media (min-width: 768px) {
