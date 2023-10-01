@@ -2,7 +2,7 @@
 # ANA RIOS HAIR SALON SITE
 
 ## Overview 🟣
-Welcome to my Ana Rio's hair salon website! I created this site to showcase Ana's Hair Salon, Denver's premier destination for all your hair and beauty needs. I'm excited to tell you about this fabulous salon owned by Ana Rios, a licensed hairdresser with over 10 years of experience making clients look and feel their best.
+Welcome to Ana Rios's hair salon website! I created this site to showcase Ana's Hair Salon, Denver's premier destination for all your hair and beauty needs. I'm excited to tell you about this fabulous salon owned by Ana Rios, a licensed hairdresser with over 10 years of experience making clients look and feel their best.
 
 At Ana's Hair Salon, clients can enjoy a wide range of services including haircuts, coloring, styling, makeup, facials, pedicures, and more. Ana and her talented and friendly stylists stay up-to-date on the latest trends and techniques to provide every client with a personalized, relaxing experience. Whether you're looking for a quick trim, a bold new look, or pampering spa treatments, Ana's has you covered.
 
