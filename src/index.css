@@ -103,6 +103,7 @@ a{
 
 /* TOGGLE */
 
+ 
 
 /* HOME PAGE */
 /* Default styles for home-page */
@@ -126,7 +127,7 @@ a{
 }
 /* NAV MENU */
 .nav__menu {
-   
+   position: fixed;
     top: 35;
     right: 35px;
     padding: 35px 50px;
@@ -145,18 +146,21 @@ a{
 /* LOGO */
 
 .brandi {
-    
-    top: 10px;
-    /* left: 15px; */
-    z-index: 100;  
-    @media (max-width: 767px) {
-        
-    
-        /* padding: 10px 15px; */
-        border-radius: 5px; /* Optional: Add rounded corners for a nicer look */
-        /* box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.2);  */
-    } 
-}
+    top: 10px; 
+    z-index: 100;
+    position: fixed;
+  }
+  
+  @media (min-width: 768px) {
+    .brandi {
+      top: 10px;
+      left: 15px;
+      z-index: 100;
+    }
+  }
+
+
+
 /* BUTTON */
 .btn{
     width: 240px;
@@ -716,5 +720,5 @@ a{
     }
 }
 
-/* //////////// */
+
 
