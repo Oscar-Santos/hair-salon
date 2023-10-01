@@ -103,13 +103,7 @@ a{
 
 /* TOGGLE */
 
-@media (max-width: 767px) {
-    .nav__toggle {
-        position: fixed;
-        top: 15px;
-        left: 330px;
-    }
-}
+
 
 
 
