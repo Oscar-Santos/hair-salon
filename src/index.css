@@ -158,7 +158,7 @@ a{
 
     .brandi {
         top: 10px;
-        left: 15px;
+        left: 25px;
         z-index: 100;
         position: fixed;
         background-color: transparent; /* Set background color for desktop */
@@ -171,13 +171,15 @@ a{
 .brandi {
     top: 10px; 
     z-index: 100;
+
+
     /* position: relative; */
   }
   
   @media (min-width: 768px) {
     .brandi {
       top: 10px;
-      left: 15px;
+      left: 95px;
       z-index: 100;
     }
   }
