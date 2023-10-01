@@ -2,13 +2,13 @@
 # ANA RIOS HAIR SALON SITE
 
 ## Overview 🟣
-Brand Craft Pro Robot App is a small, yet complete full-stack application. For this app, I utilized various technologies such as React, React libraries, CSS, Node packages, and a Node.js server with the Express framework to create a web server.
+Welcome to my Ana Rio's hair salon website! I created this site to showcase Ana's Hair Salon, Denver's premier destination for all your hair and beauty needs. I'm excited to tell you about this fabulous salon owned by Ana Rios, a licensed hairdresser with over 10 years of experience making clients look and feel their best.
 
-The highlight of this application is an interactive chatbot that leverages the powerful "Text-DaVinci-oo3" model from OpenAI. Through API calls, the chatbot engages in conversations with users, simulating interactions with a real person. To ensure security, I have implemented the Dotenv module to load environment variables and conceal my API key, as OpenAI prioritizes data protection.
+At Ana's Hair Salon, clients can enjoy a wide range of services including haircuts, coloring, styling, makeup, facials, pedicures, and more. Ana and her talented and friendly stylists stay up-to-date on the latest trends and techniques to provide every client with a personalized, relaxing experience. Whether you're looking for a quick trim, a bold new look, or pampering spa treatments, Ana's has you covered.
 
-You can ask this chatbot for name suggestions, logo designs, or even an "about us" story for any type of business. It provides prompt-based responses, generating creative and relevant suggestions based on the input. Additionally, I have incorporated AI voice to deliver an introductory and thank-you message to the user.
+Conveniently located less than 10 minutes from downtown Denver, Ana's Hair Salon provides a welcoming environment the moment you walk through their doors. Hair is their passion and they put their hearts into every service. Trust Ana's stylists to help you look fabulous and feel confident.
 
-Developing this application has been exciting but also challenging. I thoroughly enjoyed working on it and overcoming the various complexities that arose along the way.
+I created this website to spread the word about this wonderful salon. Please explore the site to learn more about Ana's Hair Salon, view their services, and book your next appointment online. I'm sure you'll love this salon as much as I do!
 
 <img width="1224" alt="anahs" src="https://github.com/Oscar-Santos/hair-salon/assets/83252572/5fa718c7-05ee-4b77-88d3-9699d9f76474">
 
@@ -46,19 +46,9 @@ Developing this application has been exciting but also challenging. I thoroughly
 </p>
 
 
-## Vercel Deployment Link🟣
+## Hair Salon Site Link🟣
 
-[Vercel Link](https://brand-craft-pro-robot-app.vercel.app/)
-
-## App Link🟣
-
-[React App Link](https://brand-craft-pro-robot-app.vercel.app/)
+[React App Link](https://hair-salon-green.vercel.app/)
 
 
-![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
