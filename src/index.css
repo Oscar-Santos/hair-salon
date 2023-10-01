@@ -176,7 +176,6 @@ a{
         border-radius: 5px; /* Optional: Add rounded corners for a nicer look */
         /* box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.2);  */
         opacity: 0.5;
-        position: fixed;
     } 
 }
 /* BUTTON */
