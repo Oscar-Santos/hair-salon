@@ -101,28 +101,23 @@ a{
 
 /* NEW MODIFYING */
 
-/* TOGGLE */
-
- 
-
 /* HOME PAGE */
 /* Default styles for home-page */
 #home-page {
-    text-align: center; /* Center align the content inside home-page */
+    text-align: center; 
 }
 
-/* Media query for screens smaller than 768px (typical mobile devices) */
 @media (max-width: 768px) {
     #home-page {
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        height: 100vh; /* Set home-page height to 100% of the viewport height */
+        height: 100vh; 
     }
     
     .hero__img {
-        margin-bottom: 20px; /* Add some space between the image and content */
+        margin-bottom: 20px; 
     }
 }
 /* NAV MENU */
@@ -131,13 +126,11 @@ a{
     top: 35;
     right: 35px;
     padding: 35px 50px;
-    z-index: 100; /* Set a higher z-index to ensure it appears above other elements */
+    z-index: 100; 
 
     @media (max-width: 767px) {
-        right: 5px; /* Adjust the right spacing for smaller screens */
-        
-        /* padding: 10px 15px; */
-        border-radius: 5px; /* Optional: Add rounded corners for a nicer look */
+        right: 5px; 
+        border-radius: 5px; 
         box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.2); 
     }
 }
@@ -148,12 +141,12 @@ a{
 @media (min-width: 960px) {
     .nav__menu {
         position: fixed;
-        top: 35px; /* Adjust the top position as per your design */
-        right: 35px; /* Adjust the right position as per your design */
+        top: 35px; 
+        right: 35px;
         padding: 35px 50px;
         z-index: 100;
-        background-color: transparent; /* Set background color for desktop */
-        box-shadow: none; /* Remove box shadow for desktop */
+        background-color: transparent; 
+        box-shadow: none;
     }
 
     .brandi {
@@ -161,19 +154,14 @@ a{
         left: 25px;
         z-index: 100;
         position: fixed;
-        background-color: transparent; /* Set background color for desktop */
-        box-shadow: none; /* Remove box shadow for desktop */
+        background-color: transparent; 
+        box-shadow: none; 
     }
 }
-
-
 
 .brandi {
     top: 10px; 
     z-index: 100;
-
-
-    /* position: relative; */
   }
   
   @media (min-width: 768px) {
@@ -183,8 +171,6 @@ a{
       z-index: 100;
     }
   }
-
-
 
 /* BUTTON */
 .btn{
@@ -249,10 +235,6 @@ a{
     width: 100%;
     height: var(--header-height);
     background-color: rgba(255, 255, 255, 0.4);
-    /* position: fixed; */
-    /* top: 0; */
-    /* left: 0; */
-    /* z-index: 999999; */
     transition: all 400ms ease;
 }
 .navbar{
@@ -358,14 +340,7 @@ a{
     color: var(--black-color);
     margin-bottom: var(--mb-1-5);
 }
-/* ABOUT */
-/* .about{
-    width: 100%;
-    background-image: url(../img/arabesco-left-bottom.svg);
-    background-repeat: no-repeat;
-    background-position: bottom left;
-    z-index: var(--z_negative);
-} */
+
 .about__detail{
     width: 100%;
     padding: 2rem;
@@ -401,14 +376,7 @@ a{
     line-height: calc(var(--normal-font-size) + 12px);
     color: var(--black-color);
 }
-/* SERVICES */
-/* .services{
-    width: 100%;
-    background-image: url(../img/arabesco-left-top.svg);
-    background-repeat: no-repeat;
-    background-position: top left;
-    z-index: var(--z_negative);
-} */
+
 .services__content__descripion{
     width: 100%;
     padding: 2rem;
