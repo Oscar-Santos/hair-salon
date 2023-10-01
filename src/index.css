@@ -99,6 +99,20 @@ a{
     color: var(--black-color);
 }
 
+/* NEW MODIFYING */
+
+/* TOGGLE */
+
+@media (max-width: 767px) {
+    .nav__toggle {
+        position: fixed;
+        top: 15px;
+        left: 330px;
+    }
+}
+
+
+
 /* HOME PAGE */
 /* Default styles for home-page */
 #home-page {
@@ -121,26 +135,47 @@ a{
 }
 /* NAV MENU */
 .nav__menu {
-    position: fixed;
+    /* position: fixed; */
     top: 15;
-    right: 40px;
-    /* padding: 35px 50px;  */
+    right: 180;
+    padding: 35px 50px;
     z-index: 100; /* Set a higher z-index to ensure it appears above other elements */
 
     @media (max-width: 767px) {
         right: 5px; /* Adjust the right spacing for smaller screens */
     
-        padding: 10px 15px; /* Adjust padding for better touch interactions */
+        /* padding: 10px 15px; */
         border-radius: 5px; /* Optional: Add rounded corners for a nicer look */
-        box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.2); /* Optional: Add a box shadow for a subtle lift */
+        /* box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.2);  */
         opacity: 0.5;
     }
 }
 
+/* TESTIMONIALS BOX FIX */
+
+.testimonials__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.testimonials__card {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.testimonials__item {
+    margin: 20px; /* Adjust the margin between testimonial items */
+    /* Add other styles as needed */
+}
+
+
 /* LOGO */
 
 .brandi {
-    position: fixed;
+    /* position: fixed; */
     top: 10px;
     /* left: 15px; */
     z-index: 100;   
@@ -224,10 +259,12 @@ a{
     border: 2px solid transparent;
     cursor: pointer;
     z-index: var(--Z-fixed);
+    background-color: transparent;
 }
 .nav__toggle:hover{
-    color: var(--first-color);
-    border: 2px solid var(--first-color);
+    color: var(--first-color); 
+    border: 2px solid var(--first-color); 
+    background-color: transparent;
 }
 /* MEDIA QUERY NAVBAR */
 @media (max-width: 960px){
@@ -237,7 +274,7 @@ a{
         right: 0;
         width: 0;
         height: 100vh;
-        background-color: var(--main-color);
+        /* background-color: var(--main-color); */
         font-size: var(--h2-font-size);
         text-align: center;
         text-transform: capitalize;
