@@ -127,7 +127,7 @@ a{
 }
 /* NAV MENU */
 .nav__menu {
-   position: fixed;
+   position: relative;
     top: 35;
     right: 35px;
     padding: 35px 50px;
@@ -148,7 +148,7 @@ a{
 .brandi {
     top: 10px; 
     z-index: 100;
-    position: fixed;
+    position: relative;
   }
   
   @media (min-width: 768px) {
