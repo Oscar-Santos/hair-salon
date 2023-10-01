@@ -138,7 +138,6 @@ a{
         /* padding: 10px 15px; */
         border-radius: 5px; /* Optional: Add rounded corners for a nicer look */
         box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.2); 
-        opacity: 0.5;
     }
 }
 
@@ -156,7 +155,6 @@ a{
         /* padding: 10px 15px; */
         border-radius: 5px; /* Optional: Add rounded corners for a nicer look */
         /* box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.2);  */
-        opacity: 0.5;
     } 
 }
 /* BUTTON */
@@ -259,7 +257,6 @@ a{
         text-transform: capitalize;
         padding-top: var(--header-height);
         transition: all 400ms ease-in-out;
-        opacity: 0.5;
     }
     .nav__item{
         padding: 15px 0;
