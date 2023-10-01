@@ -142,25 +142,6 @@ a{
     }
 }
 
-/* TESTIMONIALS BOX FIX */
-
-/* .testimonials__content {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-}
-
-.testimonials__card {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-
-.testimonials__item {
-    margin: 20px; 
-} */
-
 
 /* LOGO */
 
@@ -272,12 +253,13 @@ a{
         right: 0;
         width: 0;
         height: 100vh;
-        /* background-color: var(--main-color); */
+        background-color: var(--main-color); 
         font-size: var(--h2-font-size);
         text-align: center;
         text-transform: capitalize;
         padding-top: var(--header-height);
         transition: all 400ms ease-in-out;
+        opacity: 0.5;
     }
     .nav__item{
         padding: 15px 0;
