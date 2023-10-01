@@ -104,9 +104,6 @@ a{
 /* TOGGLE */
 
 
-
-
-
 /* HOME PAGE */
 /* Default styles for home-page */
 #home-page {
@@ -129,9 +126,9 @@ a{
 }
 /* NAV MENU */
 .nav__menu {
-    /* position: fixed; */
-    top: 15;
-    right: 180;
+   
+    top: 35;
+    right: 35px;
     padding: 35px 50px;
     z-index: 100; /* Set a higher z-index to ensure it appears above other elements */
 
@@ -147,7 +144,7 @@ a{
 
 /* TESTIMONIALS BOX FIX */
 
-.testimonials__content {
+/* .testimonials__content {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -161,18 +158,26 @@ a{
 }
 
 .testimonials__item {
-    margin: 20px; /* Adjust the margin between testimonial items */
-    /* Add other styles as needed */
-}
+    margin: 20px; 
+} */
 
 
 /* LOGO */
 
 .brandi {
-    /* position: fixed; */
+    
     top: 10px;
     /* left: 15px; */
-    z-index: 100;   
+    z-index: 100;  
+    @media (max-width: 767px) {
+        
+    
+        /* padding: 10px 15px; */
+        border-radius: 5px; /* Optional: Add rounded corners for a nicer look */
+        /* box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.2);  */
+        opacity: 0.5;
+        position: fixed;
+    } 
 }
 /* BUTTON */
 .btn{
