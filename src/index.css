@@ -376,6 +376,18 @@ a{
     line-height: calc(var(--normal-font-size) + 12px);
     color: var(--black-color);
 }
+/* SERVICES PAGE / BOX */
+
+.services {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .service-box {
+    /* service box styles */
+    width: 300px; 
+  }
 
 .services__content__descripion{
     width: 100%;
