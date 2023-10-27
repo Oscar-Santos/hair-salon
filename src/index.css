@@ -649,6 +649,7 @@ a{
     }
     .services__content__descripion{
         grid-template-columns: repeat(4, 1fr);
+        justify-content: center;
     }
     .gallery::before{
         height: 50%;
