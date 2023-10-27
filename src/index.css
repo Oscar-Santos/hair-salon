@@ -708,8 +708,8 @@ a{
 }
 @media (min-width: 1100px){
     .about__descripion::before{
-        height: 150%;
-        top: -25%;
+        height: 132%;
+        top: -18%;
     }
 }
 
