@@ -586,12 +586,12 @@ a{
   }
   
   .testimonials__box {
-    max-width: 500px; 
+    max-width: 800px; 
   }
   
   @media (max-width: 768px) {
     .testimonials__box {
-      max-width: 100%;
+      max-width: 90%;
     }
   }
 
