@@ -534,6 +534,7 @@ a{
 .testimonials{
     background-color: var(--main-color);
     border-radius: 300px 0;
+    
 }
 .testimonials__content{
     padding: 2rem;
@@ -672,6 +673,11 @@ a{
         width: 820px;
         grid-template-columns: repeat(2, 1fr);
     }
+    .testimonials {
+        display: grid;
+        place-items: center;
+      }
+      
     .testimonials__item:hover .testimonials__img img{
         transform: translateX(300px) rotate(360deg);
     }
