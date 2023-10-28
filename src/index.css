@@ -579,14 +579,14 @@ a{
     z-index: var(--z-tooltip);
 }
 
-
+/* FIXING THE CENTERING OF TESTIMONIALS BOX */
 .testimonials {
     display: flex;
     justify-content: center;
   }
   
   .testimonials__box {
-    max-width: 800px; 
+    max-width: 500px; 
   }
   
   @media (max-width: 768px) {
@@ -594,10 +594,6 @@ a{
       max-width: 100%;
     }
   }
-
-
-
-
 
 .testimonials__name{
     margin-bottom: var(--mb-1);
