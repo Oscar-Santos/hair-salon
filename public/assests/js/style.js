@@ -41,3 +41,54 @@ function scrollHeader(){
 }
 window.addEventListener('scroll', scrollHeader)
 
+/*==================== PAGINATION IN GALLERY ====================*/
+
+// Get button by ID
+const loadMoreBtn = document.getElementById('loadMoreBtn');
+
+// Number of images to show per click
+const numImages = 6;
+
+// Get total images  
+const totalImages = document.querySelectorAll('.gallery__img').length;
+
+// Current page starts at 1 
+let currentPage = 1;
+
+// Init - show first 6 images
+for(let i = 0; i < numImages; i++) {
+  document.querySelectorAll('.gallery__img')[i].style.display = 'block';
+}
+
+// Load more click handler
+loadMoreBtn.addEventListener('click', () => {
+
+  // Increase page
+  currentPage++;
+
+  // Calc image indexes
+  const startIndex = (currentPage - 1) * numImages;
+  const endIndex = currentPage * numImages;
+
+  // Hide all first
+  document.querySelectorAll('.gallery__img').forEach(img => {
+    img.style.display = 'none';
+  });
+
+  // Show next 6 
+  for(let i = startIndex; i < endIndex; i++) {
+    if(i < totalImages){
+      document.querySelectorAll('.gallery__img')[i].style.display = 'block';
+    }
+  }
+
+  // Check if more to load
+  if(endIndex >= totalImages) { 
+    loadMoreBtn.disabled = true;
+  }
+
+
+
+});
+
+

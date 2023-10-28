@@ -748,3 +748,9 @@ a{
 
 
 
+/* LIMIT THE IMAGES FOR ONLY 6 */
+
+.gallery__img {
+    display: none; 
+  }
+
